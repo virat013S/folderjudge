@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "folderjudge"
+version = "1.0.0"
+description = "An AI judge for messy folders. It sees your Downloads. It has opinions. Nothing is deleted — everything is restorable."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["downloads", "cleanup", "organize", "ollama", "ai", "local"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Filesystems",
+]
+
+[project.scripts]
+folderjudge = "folderjudge.cli:main"
+
+[tool.setuptools]
+packages = ["folderjudge"]
