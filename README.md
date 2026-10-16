@@ -1,5 +1,7 @@
 # ⚖️ FolderJudge
 
+[![tests](https://github.com/virat013S/folderjudge/actions/workflows/tests.yml/badge.svg)](https://github.com/virat013S/folderjudge/actions/workflows/tests.yml)
+
 **An AI judge for your messy folders.** It sees your Downloads. It has opinions.
 It sentences the crooked files, archives the antiques, keeps the innocent — and
 *nothing is deleted*, ever. Everything goes to its own trash with a manifest,
